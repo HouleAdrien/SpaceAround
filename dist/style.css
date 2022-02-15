@@ -70,9 +70,6 @@ section {
     margin-bottom: var(--spacing);
     overflow-wrap: break-word;
 }
-section p{
-    overflow-wrap: break-word;
-}
 
 blockquote {
     margin: 0;
