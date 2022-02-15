@@ -23,7 +23,7 @@ canvas {
 :root {
     --dark-bg: rgba(15, 15, 15, 0.95);
     --spacing: 350px;
-    font-family: font;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     font-style: normal;
 }
@@ -65,12 +65,15 @@ section {
     grid-column: 2 / 8;
     padding: 1rem;
     background: var(--dark-bg);
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
     overflow-wrap: break-word;
 }
- 
+section p{
+    overflow-wrap: break-word;
+}
+
 blockquote {
     margin: 0;
     padding: 0;
