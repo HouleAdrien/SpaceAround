@@ -49,7 +49,7 @@ function addStar() {
 
   const [x, y, z] = Array(3)
     .fill()
-    .map(() => THREE.MathUtils.randFloatSpread(100));
+    .map(() => THREE.MathUtils.randFloatSpread(200));
 
   star.position.set(x, y, z);
   scene.add(star);
@@ -95,7 +95,7 @@ scene.add(mars);
 
 mars.add(dome)
 mars.position.z = 30;
-mars.position.setX(-10);
+mars.position.setX(-20);
 dome.position.set(0, 0, 0);
 dome.rotation.x = 0 ;
 let rx = 1 * Math.PI * 2;
