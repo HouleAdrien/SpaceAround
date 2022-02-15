@@ -54,17 +54,6 @@ canvas {
     left: 0;
 }
 
-
-
-header {
-    background: var(--dark-bg);
-    grid-column: 2 / span 5;
-    font-size: 1.25rem;
-    padding: 2rem;
-    margin-bottom: var(--spacing);
-    overflow-wrap: break-word;
-}
-
 section {
     grid-column: 2 / 8;
     padding: 1rem;
