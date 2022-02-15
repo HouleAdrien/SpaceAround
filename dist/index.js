@@ -97,7 +97,7 @@ dome.castShadow = true;
 dome.receiveShadow = true;
 dome.position.setFromSphericalCoords(2.7, ry, rx);
 logo.position.z = -10;
-logo.position.x = 2;
+logo.position.x = 2.10;
 
 // Scroll Animation
 
