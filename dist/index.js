@@ -52,7 +52,7 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.VideoTexture('space.mp4');
+const spaceTexture new THREE.TextureLoader().load('space.gif');
 scene.background = spaceTexture;
 
 // Logo
