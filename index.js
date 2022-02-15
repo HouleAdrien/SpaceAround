@@ -48,7 +48,7 @@ function addStar() {
   scene.add(star);
 }
 
-Array(200).fill().forEach(addStar);
+Array(10000).fill().forEach(addStar);
 
 // Background
 
@@ -88,7 +88,7 @@ scene.add(mars);
 
 mars.add(dome)
 mars.position.z = 30;
-mars.position.setX(-40);
+mars.position.setX(-100);
 dome.position.set(0, 0, 0);
 dome.rotation.x = 0 ;
 let rx = 1 * Math.PI * 2;
