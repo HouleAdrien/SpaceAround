@@ -96,7 +96,7 @@ let ry = 1 * Math.PI;
 dome.castShadow = true;
 dome.receiveShadow = true;
 dome.position.setFromSphericalCoords(2.7, ry, rx);
-logo.position.z = -5;
+logo.position.z = -7;
 logo.position.x = 2;
 
 // Scroll Animation
