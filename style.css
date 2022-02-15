@@ -24,7 +24,7 @@ canvas {
     --dark-bg: rgba(15, 15, 15, 0.95);
     --spacing: 350px;
     font-family: font;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -41,7 +41,7 @@ main {
 
 h1, h2, h3, blockquote {
     font-family: font;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -68,8 +68,9 @@ section {
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    overflow-wrap: break-word;
 }
-
+ 
 blockquote {
     margin: 0;
     padding: 0;
