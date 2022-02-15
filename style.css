@@ -53,15 +53,7 @@ canvas {
     top: 0;
     left: 0;
 }
-header {
-    grid-column: 1 / 8;
-    padding: 1rem;
-    background: var(--dark-bg);
-    font-size: 0.75rem;
-    line-height: 1.5;
-    margin-bottom: var(--spacing);
-    overflow-wrap: break-word;
-}
+
 section {
     grid-column: 2 / 8;
     padding: 1rem;
@@ -89,4 +81,7 @@ blockquote {
 
 .left {
     grid-column: 6 / 12;
+}
+.right{
+    grid-column: 1 /8;
 }
