@@ -87,7 +87,7 @@ dome.material.side = THREE.DoubleSide;
 scene.add(mars);
 
 mars.add(dome)
-mars.position.z = 75;
+mars.position.z = 90;
 mars.position.setX(-10);
 dome.position.set(0, 0, 0);
 dome.rotation.x = 0 ;
