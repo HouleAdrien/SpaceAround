@@ -87,7 +87,7 @@ dome.material.side = THREE.DoubleSide;
 scene.add(mars);
 
 mars.add(dome)
-mars.position.z = 75;
+mars.position.z = 50;
 mars.position.setX(-10);
 dome.position.set(0, 0, 0);
 dome.rotation.x = 0 ;
@@ -96,8 +96,8 @@ let ry = 1 * Math.PI;
 dome.castShadow = true;
 dome.receiveShadow = true;
 dome.position.setFromSphericalCoords(2.7, ry, rx);
-logo.position.z = -12;
-logo.position.x = 4;
+logo.position.z = -10;
+logo.position.x = 3;
 
 // Scroll Animation
 
