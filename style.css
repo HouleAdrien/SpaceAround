@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/jmk3xov.css");
-@font-face{
+@font-face {
     font-family: font;
-    src: url(centauri.otf);
+    src: url(Centauri.otf);
 }
 html, body {
     max-width: 100%;
