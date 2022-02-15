@@ -59,7 +59,7 @@ scene.background = spaceTexture;
 
 const logotext = new THREE.TextureLoader().load('logo.png');
 
-const logo = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: logotext }));
+const logo = new THREE.Mesh(new THREE.BoxGeometry(5, 5, 5), new THREE.MeshBasicMaterial({ map: logotext }));
 
 scene.add(logo);
 
@@ -87,8 +87,8 @@ dome.material.side = THREE.DoubleSide;
 scene.add(mars);
 
 mars.add(dome)
-mars.position.z = 90;
-mars.position.setX(-10);
+mars.position.z = 100;
+mars.position.setX(-20);
 dome.position.set(0, 0, 0);
 dome.rotation.x = 0 ;
 let rx = 1 * Math.PI * 2;
