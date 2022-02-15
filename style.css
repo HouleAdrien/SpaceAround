@@ -18,7 +18,10 @@ canvas {
     top: 0;
     left: 0;
 }
-
+img {
+    width: 100%;
+    height: auto;
+}
 
 :root {
     --dark-bg: rgba(15, 15, 15, 0.95);
@@ -41,7 +44,7 @@ main {
 
 h1, h2, h3, blockquote {
     font-family: font;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
 
