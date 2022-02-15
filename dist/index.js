@@ -34,13 +34,6 @@ pointLight.position.set(5, 5, 5);
 const ambientLight = new THREE.AmbientLight(0x404040);
 scene.add(pointLight, ambientLight);
 
-// Helpers
-
-// const lightHelper = new THREE.PointLightHelper(pointLight)
-// const gridHelper = new THREE.GridHelper(200, 50);
-// scene.add(lightHelper, gridHelper)
-
-// const controls = new OrbitControls(camera, renderer.domElement);
 
 function addStar() {
   const geometry = new THREE.SphereGeometry(0.25, 24, 24);
@@ -49,7 +42,7 @@ function addStar() {
 
   const [x, y, z] = Array(3)
     .fill()
-    .map(() => THREE.MathUtils.randFloatSpread(200));
+    .map(() => THREE.MathUtils.randFloatSpread(400));
 
   star.position.set(x, y, z);
   scene.add(star);
@@ -59,7 +52,7 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('space.jpg');
+const spaceTexture = new THREE.VideoTexture('space.mp4');
 scene.background = spaceTexture;
 
 // Logo
@@ -95,7 +88,7 @@ scene.add(mars);
 
 mars.add(dome)
 mars.position.z = 30;
-mars.position.setX(-20);
+mars.position.setX(-40);
 dome.position.set(0, 0, 0);
 dome.rotation.x = 0 ;
 let rx = 1 * Math.PI * 2;
